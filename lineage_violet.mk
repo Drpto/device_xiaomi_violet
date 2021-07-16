@@ -18,6 +18,7 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_ENABLE_BLUR := false
+TARGET_DEBLOAT := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
