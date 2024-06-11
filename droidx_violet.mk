@@ -17,6 +17,7 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 #Device Props
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_ENABLE_BLUR := false
+TARGET_DEBLOAT := true
 DROIDX_BUILD_TYPE := OFFICIAL
 DROIDX_GAPPS := true
 
