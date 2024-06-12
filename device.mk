@@ -412,7 +412,8 @@ PRODUCT_SOONG_NAMESPACES += \
     bootable/deprecated-ota \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/xiaomi
+    hardware/xiaomi \
+    vendor/qcom/opensource/usb/etc
 
 # Telephony
 PRODUCT_PACKAGES += \
