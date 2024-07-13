@@ -168,8 +168,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.sm6150 \
     libtinyxml \
     libvulkan \
-    memtrack.sm6150 \
-    vendor.qti.hardware.display.allocator-service
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.memtrack-service
 
 # Display interfaces
 PRODUCT_PACKAGES += \
