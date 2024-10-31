@@ -9,15 +9,21 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
-SUPERIOR_OFFICIAL := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_MATLOG := true
-TARGET_INCLUDE_PIXEL_CHARGER := true
-USE_MOTO_CALCULATOR := true
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # MiuiCamera
 $(call inherit-product, vendor/MiuiCamera/config.mk)
+
+#Device Props
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := false
+
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Charging Animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_violet
