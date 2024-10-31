@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/droidx_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_violet-ap1a-eng \
-    droidx_violet-ap1a-userdebug \
-    droidx_violet-ap1a-user
+    droidx_violet-ap2a-eng \
+    droidx_violet-ap2a-userdebug \
+    droidx_violet-ap2a-user
