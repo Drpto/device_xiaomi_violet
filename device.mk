@@ -293,7 +293,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.xiaomi
+    android.hardware.light-service.lineage
 
 # Media
 PRODUCT_PACKAGES += \
@@ -399,8 +399,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     bootable/deprecated-ota \
     hardware/google/interfaces \
-    hardware/google/pixel \
-    hardware/xiaomi
+    hardware/google/pixel
 
 # Telephony
 PRODUCT_PACKAGES += \
